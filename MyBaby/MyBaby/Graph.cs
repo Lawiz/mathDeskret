@@ -1,28 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
+using System;
 using System.Text;
-using System.Threading.Tasks;
-using System.Collections;
 namespace MyBaby
 {
 	class Graph
 	{
-
-		public List<GraphNode> listNode{ get; set; }
-		public List<GrapgEdge>listEdge{ get; set; }
-		public void addNode(int count)
-		{
-			for(int countOfNods=0;countOfNods<count;countOfNods++)
-			{
-				Random rnd = new Random((int)DateTime.Now.Ticks);
-				GraphNode node = new GraphNode(rnd.Next(680), rnd.Next(420));
-				listNode.Add(node);
+		private List<Node> nods;
+		public List<Node> Nods{
+			get{
+				return nods;
+			}
+			set{
+				nods = value;
 			}
 		}
-		public void addEdge(GraphNode start, GraphNode finish, bool directed)
+		private List<Edge> edges;
+		public List<Edge> Edges{
+			get{
+				return edges;
+			}
+			set{
+				edges = value;
+			}
+		}
+		public Graph()
 		{
-			listEdge.Add(new GrapgEdge(start, finish, directed));
+			new List<Node>();
+			new List<Edge>();
+
+		}
+		public void addNode(int val)
+		{
+			Nods.Add(new Node(val));
+		}
+		public void addEdge(Node start, Node finish)
+		{
+			Edges.Add(new Edge(start, finish));
 		}
 		
 	}
