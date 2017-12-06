@@ -1,0 +1,15 @@
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\obj\Debug\MyBaby.csprojResolveAssemblyReference.cache
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\obj\Debug\MyBaby.csproj.CoreCompileInputs.cache
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\bin\Debug\MyBaby.exe.config
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\bin\Debug\MyBaby.exe
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\bin\Debug\MyBaby.pdb
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\bin\Debug\QuickGraph.Data.dll
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\bin\Debug\QuickGraph.dll
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\bin\Debug\QuickGraph.Graphviz.dll
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\bin\Debug\QuickGraph.Serialization.dll
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\bin\Debug\QuickGraph.xml
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\bin\Debug\QuickGraph.Data.xml
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\bin\Debug\QuickGraph.Graphviz.xml
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\bin\Debug\QuickGraph.Serialization.xml
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\obj\Debug\MyBaby.exe
+C:\Users\petrs.PETR\Desktop\Discrete-Math\MyBaby\MyBaby\obj\Debug\MyBaby.pdb

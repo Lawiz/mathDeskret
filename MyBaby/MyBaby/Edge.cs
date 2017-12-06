@@ -26,6 +26,15 @@ namespace MyBaby
 				finishNode = value;
 			}
 		}
+		private bool option;
+		public bool Option{
+			get{
+				return option;
+			}
+			set{
+				option = value;
+			}
+		}
 		public Edge(Node start,Node finish)
 		{
 			StartNode = start.Value;
