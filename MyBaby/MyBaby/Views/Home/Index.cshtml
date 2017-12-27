@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Operatin vizualizer for graphs";
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/halfviz.css")
+    @Scripts.Render("~/Scripts/PageControl.js")
+
+
+</head>
+<body>
+
+
+
+
+    <div id="halfviz">
+        <canvas id="viewport" width="800" height="600"></canvas>
+        <div id="editor">
+            <div class="io">
+                <div class="ctrl"><a href="#" class="new">Очистить</a></div>
+                <ul class="dialog"></ul>
+            </div>
+            <textarea id="code"></textarea>
+        </div>
+        <div id="grabber"></div>
+    </div>
+   
+
+    <div id="dashboard">
+        <ul class="controls">
+            <li class="stiffness">Натяжение <span class="frob">10,000</span></li>
+            <li class="repulsion">Отталкивание <span class="frob">10,000</span></li>
+            <li class="friction">Трение <span class="frob">20%</span></li>
+            <li class="gravity">Гравитация <span class="toggle">.</span></li>
+        </ul>
+       
+        @using (Html.BeginForm("UnionGraphs", "Home", FormMethod.Post))
+        { 
+            <input type="submit" value="Объединение графов" />
+        }
+
+
+    </div>
+
+
+    @Scripts.Render("~/Scripts/jquery-1.6.1.min.js")
+    @Scripts.Render("~/Scripts/jquery.address-1.4.min.js")
+    @Scripts.Render("~/Scripts/parseur.js")
+    @Scripts.Render("~/Scripts/arbor-tween.js")
+    @Scripts.Render("~/Scripts/arbor.js")
+    @Scripts.Render("~/Scripts/dashboard.js")
+    @Scripts.Render("~/Scripts/graphics.js")
+    @Scripts.Render("~/Scripts/halfviz.js")
+    @Scripts.Render("~/Scripts/help.js")
+    @Scripts.Render("~/Scripts/io.js")
+    @Scripts.Render("~/Scripts/renderer.js")
+
+  
+
+
+</body>
+</html>
